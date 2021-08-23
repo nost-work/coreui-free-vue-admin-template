@@ -71,48 +71,48 @@ function configRoutes () {
     {
       path: '/',
       redirect: '/dashboard',
-      name: 'Home',
+      name: 'ホーム',
       component: TheContainer,
       children: [
         {
           path: 'dashboard',
-          name: 'Dashboard',
+          name: 'ダッシュボード',
           component: Dashboard
         },
         {
           path: 'theme',
           redirect: '/theme/colors',
-          name: 'Theme',
+          name: 'テーマ',
           component: {
             render (c) { return c('router-view') }
           },
           children: [
             {
               path: 'colors',
-              name: 'Colors',
+              name: 'カラー',
               component: Colors
             },
             {
               path: 'typography',
-              name: 'Typography',
+              name: 'タイポグラフィー',
               component: Typography
             }
           ]
         },
         {
           path: 'charts',
-          name: 'Charts',
+          name: 'チャート',
           component: Charts
         },
         {
           path: 'widgets',
-          name: 'Widgets',
+          name: 'ウィジェット',
           component: Widgets
         },
         {
           path: 'users',
           meta: {
-            label: 'Users'
+            label: 'ユーザー一覧'
           },
           component: {
             render(c) {
@@ -122,15 +122,15 @@ function configRoutes () {
           children: [
             {
               path: '',
-              name: 'Users',
+              name: 'ユーザー',
               component: Users
             },
             {
               path: ':id',
               meta: {
-                label: 'User Details'
+                label: 'ユーザー詳細'
               },
-              name: 'User',
+              name: 'ユーザー',
               component: User
             }
           ]
@@ -138,89 +138,89 @@ function configRoutes () {
         {
           path: 'base',
           redirect: '/base/cards',
-          name: 'Base',
+          name: 'ベース',
           component: {
             render (c) { return c('router-view') }
           },
           children: [
             {
               path: 'cards',
-              name: 'Cards',
+              name: 'カード',
               component: Cards
             },
             {
               path: 'forms',
-              name: 'Forms',
+              name: 'フォーム',
               component: Forms
             },
             {
               path: 'switches',
-              name: 'Switches',
+              name: 'スイッチ',
               component: Switches
             },
             {
               path: 'tables',
-              name: 'Tables',
+              name: 'テーブル',
               component: Tables
             },
             {
               path: 'tabs',
-              name: 'Tabs',
+              name: 'タブ',
               component: Tabs
             },
             {
               path: 'breadcrumbs',
-              name: 'Breadcrumbs',
+              name: 'パンくず',
               component: Breadcrumbs
             },
             {
               path: 'carousels',
-              name: 'Carousels',
+              name: 'カルーセル',
               component: Carousels
             },
             {
               path: 'collapses',
-              name: 'Collapses',
+              name: 'アコーディオン',
               component: Collapses
             },
             {
               path: 'jumbotrons',
-              name: 'Jumbotrons',
+              name: 'ジャンボトロン',
               component: Jumbotrons
             },
             {
               path: 'list-groups',
-              name: 'List Groups',
+              name: 'リストグループ',
               component: ListGroups
             },
             {
               path: 'navs',
-              name: 'Navs',
+              name: 'ナビゲーション',
               component: Navs
             },
             {
               path: 'navbars',
-              name: 'Navbars',
+              name: 'ナビゲーションバー',
               component: Navbars
             },
             {
               path: 'paginations',
-              name: 'Paginations',
+              name: 'ページネーション',
               component: Paginations
             },
             {
               path: 'popovers',
-              name: 'Popovers',
+              name: 'ポップオーバー',
               component: Popovers
             },
             {
               path: 'progress-bars',
-              name: 'Progress Bars',
+              name: '進捗バー',
               component: ProgressBars
             },
             {
               path: 'tooltips',
-              name: 'Tooltips',
+              name: 'ツールチップ',
               component: Tooltips
             }
           ]
@@ -228,7 +228,7 @@ function configRoutes () {
         {
           path: 'buttons',
           redirect: '/buttons/standard-buttons',
-          name: 'Buttons',
+          name: 'ボタン',
           component: {
             render (c) { return c('router-view') }
           },

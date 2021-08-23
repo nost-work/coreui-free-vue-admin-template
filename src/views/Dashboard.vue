@@ -459,7 +459,7 @@ import WidgetsDropdown from './widgets/WidgetsDropdown'
 import WidgetsBrand from './widgets/WidgetsBrand'
 
 export default {
-  name: 'Dashboard',
+  name: 'ダッシュボード',
   components: {
     MainChartExample,
     WidgetsDropdown,

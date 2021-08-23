@@ -47,19 +47,19 @@ export default {
 
       items2: [
         {
-          text: 'Go to dashboard',
+          text: 'ダッシュボードに戻る',
           to: '/dashboard'
         }, 
         {
-          text: 'Go to widgets',
+          text: 'ウィジェット画面に移動する',
           to: '/Widgets'
         }, 
         {
-          text: 'Go to Google',
+          text: 'Googleに移動する',
           href: 'http://google.com'
         },
         {
-          text: 'Current page'
+          text: '現在のページ'
         }
       ],
 

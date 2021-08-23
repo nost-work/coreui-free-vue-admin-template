@@ -16,22 +16,22 @@
       </CHeaderNavLink>
     </template>
     <CDropdownHeader tag="div" class="text-center" color="light">
-      <strong>Account</strong>
+      <strong>アカウント</strong>
     </CDropdownHeader>
     <CDropdownItem>
-      <CIcon name="cil-bell"/> Updates
+      <CIcon name="cil-bell"/> 更新
       <CBadge color="info" class="mfs-auto">{{ itemsCount }}</CBadge>
     </CDropdownItem>
     <CDropdownItem>
-      <CIcon name="cil-envelope-open" /> Messages
+      <CIcon name="cil-envelope-open" /> メッセージ一覧
       <CBadge color="success" class="mfs-auto">{{ itemsCount }}</CBadge>
     </CDropdownItem>
     <CDropdownItem>
-      <CIcon name="cil-task" /> Tasks
+      <CIcon name="cil-task" /> タスク一覧
       <CBadge color="danger" class="mfs-auto">{{ itemsCount }}</CBadge>
     </CDropdownItem>
     <CDropdownItem>
-      <CIcon name="cil-comment-square" /> Comments
+      <CIcon name="cil-comment-square" /> コメント一覧
       <CBadge color="warning" class="mfs-auto">{{ itemsCount }}</CBadge>
     </CDropdownItem>
     <CDropdownHeader
@@ -39,28 +39,28 @@
       class="text-center"
       color="light"
     >
-      <strong>Settings</strong>
+      <strong>設定</strong>
     </CDropdownHeader>
     <CDropdownItem>
-      <CIcon name="cil-user" /> Profile
+      <CIcon name="cil-user" /> プロフィール
     </CDropdownItem>
     <CDropdownItem>
-      <CIcon name="cil-settings" /> Settings
+      <CIcon name="cil-settings" /> 設定
     </CDropdownItem>
     <CDropdownItem>
-      <CIcon name="cil-dollar" /> Payments
+      <CIcon name="cil-dollar" /> 支払い
       <CBadge color="secondary" class="mfs-auto">{{ itemsCount }}</CBadge>
     </CDropdownItem>
     <CDropdownItem>
-      <CIcon name="cil-file" /> Projects
+      <CIcon name="cil-file" /> プロジェクト
       <CBadge color="primary" class="mfs-auto">{{ itemsCount }}</CBadge>
     </CDropdownItem>
     <CDropdownDivider/>
     <CDropdownItem>
-      <CIcon name="cil-shield-alt" /> Lock Account
+      <CIcon name="cil-shield-alt" /> アカウントロック
     </CDropdownItem>
     <CDropdownItem>
-      <CIcon name="cil-lock-locked" /> Logout
+      <CIcon name="cil-lock-locked" /> ログアウト
     </CDropdownItem>
   </CDropdown>
 </template>

@@ -4,7 +4,7 @@ export default [
     _children: [
       {
         _name: 'CSidebarNavItem',
-        name: 'Dashboard',
+        name: 'ダッシュボード',
         to: '/dashboard',
         icon: 'cil-speedometer',
         badge: {
@@ -18,13 +18,13 @@ export default [
       },
       {
         _name: 'CSidebarNavItem',
-        name: 'Colors',
+        name: 'カラー',
         to: '/theme/colors',
         icon: 'cil-drop'
       },
       {
         _name: 'CSidebarNavItem',
-        name: 'Typography',
+        name: 'タイポグラフィー',
         to: '/theme/typography',
         icon: 'cil-pencil'
       },
@@ -34,114 +34,114 @@ export default [
       },
       {
         _name: 'CSidebarNavDropdown',
-        name: 'Base',
+        name: 'ベース',
         route: '/base',
         icon: 'cil-puzzle',
         items: [
           {
-            name: 'Breadcrumbs',
+            name: 'パンくず',
             to: '/base/breadcrumbs'
           },
           {
-            name: 'Cards',
+            name: 'カード',
             to: '/base/cards'
           },
           {
-            name: 'Carousels',
+            name: 'カルーセル',
             to: '/base/carousels'
           }, 
           {
-            name: 'Collapses',
+            name: 'アコーディオン',
             to: '/base/collapses'
           },
           {
-            name: 'Forms',
+            name: 'フォーム',
             to: '/base/forms'
           },
           {
-            name: 'Jumbotrons',
+            name: 'ジャンボトロン',
             to: '/base/jumbotrons'
           },
           {
-            name: 'List Groups',
+            name: 'リストグループ',
             to: '/base/list-groups'
           },
           {
-            name: 'Navs',
+            name: 'ナビゲーション',
             to: '/base/navs'
           },
           {
-            name: 'Navbars',
+            name: 'ナビゲーションバー',
             to: '/base/navbars'
           },
           {
-            name: 'Paginations',
+            name: 'ページネーション',
             to: '/base/paginations'
           },
           {
-            name: 'Popovers',
+            name: 'ポップオーバー',
             to: '/base/popovers'
           },
           {
-            name: 'Progress Bars',
+            name: '進捗バー',
             to: '/base/progress-bars'
           },
           {
-            name: 'Switches',
+            name: 'スイッチ',
             to: '/base/switches'
           },
           {
-            name: 'Tables',
+            name: 'テーブル',
             to: '/base/tables'
           },
           {
-            name: 'Tabs',
+            name: 'タブ',
             to: '/base/tabs'
           },
           {
-            name: 'Tooltips',
+            name: 'ツールチップ',
             to: '/base/tooltips'
           }
         ]
       },
       {
         _name: 'CSidebarNavDropdown',
-        name: 'Buttons',
+        name: 'ボタン',
         route: '/buttons',
         icon: 'cil-cursor',
         items: [
           {
-            name: 'Buttons',
+            name: 'ボタン',
             to: '/buttons/standard-buttons'
           },
           {
-            name: 'Button Dropdowns',
+            name: 'ドロップダウン',
             to: '/buttons/dropdowns'
           },
           {
-            name: 'Button Groups',
+            name: 'ボタングループ',
             to: '/buttons/button-groups'
           },
           {
-            name: 'Brand Buttons',
+            name: 'ブランドボタン',
             to: '/buttons/brand-buttons'
           }
         ]
       },
       {
         _name: 'CSidebarNavItem',
-        name: 'Charts',
+        name: 'チャート',
         to: '/charts',
         icon: 'cil-chart-pie'
       },
       {
         _name: 'CSidebarNavDropdown',
-        name: 'Icons',
+        name: 'アイコン',
         route: '/icons',
         icon: 'cil-star',
         items: [
           {
-            name: 'CoreUI Icons',
+            name: 'CoreUIアイコン',
             to: '/icons/coreui-icons',
             badge: {
               color: 'info',
@@ -149,38 +149,38 @@ export default [
             }
           },
           {
-            name: 'Brands',
+            name: 'ブランド',
             to: '/icons/brands'
           },
           {
-            name: 'Flags',
+            name: '国旗',
             to: '/icons/flags'
           }
         ]
       },
       {
         _name: 'CSidebarNavDropdown',
-        name: 'Notifications',
+        name: 'お知らせ',
         route: '/notifications',
         icon: 'cil-bell',
         items: [
           {
-            name: 'Alerts',
+            name: 'アラート',
             to: '/notifications/alerts'
           },
           {
-            name: 'Badges',
+            name: 'バッジ',
             to: '/notifications/badges'
           },
           {
-            name: 'Modals',
+            name: 'モーダル',
             to: '/notifications/modals'
           }
         ]
       },
       {
         _name: 'CSidebarNavItem',
-        name: 'Widgets',
+        name: 'ウィジェット',
         to: '/widgets',
         icon: 'cil-calculator',
         badge: {
@@ -199,16 +199,16 @@ export default [
       },
       {
         _name: 'CSidebarNavDropdown',
-        name: 'Pages',
+        name: 'ページ',
         route: '/pages',
         icon: 'cil-star',
         items: [
           {
-            name: 'Login',
+            name: 'ログイン',
             to: '/pages/login'
           },
           {
-            name: 'Register',
+            name: '登録',
             to: '/pages/register'
           },
           {

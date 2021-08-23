@@ -16,17 +16,17 @@
     <CHeaderNav class="d-md-down-none mr-auto">
       <CHeaderNavItem class="px-3">
         <CHeaderNavLink to="/dashboard">
-          Dashboard
+          ダッシュボード
         </CHeaderNavLink>
       </CHeaderNavItem>
       <CHeaderNavItem class="px-3">
         <CHeaderNavLink to="/users" exact>
-          Users
+          ユーザー一覧
         </CHeaderNavLink>
       </CHeaderNavItem>
       <CHeaderNavItem class="px-3">
         <CHeaderNavLink>
-          Settings
+          設定
         </CHeaderNavLink>
       </CHeaderNavItem>
     </CHeaderNav>
