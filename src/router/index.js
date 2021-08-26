@@ -6,6 +6,7 @@ const TheContainer = () => import('@/containers/TheContainer')
 
 // Views
 const Dashboard = () => import('@/views/Dashboard')
+const Demo = () => import('@/views/Demo')
 
 const Colors = () => import('@/views/theme/Colors')
 const Typography = () => import('@/views/theme/Typography')
@@ -78,6 +79,11 @@ function configRoutes () {
           path: 'dashboard',
           name: 'ダッシュボード',
           component: Dashboard
+        },
+        {
+          path: 'demo',
+          name: 'デモ用',
+          component: Demo
         },
         {
           path: 'theme',
